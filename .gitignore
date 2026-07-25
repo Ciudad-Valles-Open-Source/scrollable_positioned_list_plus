@@ -1,0 +1,40 @@
+# Miscellaneous System Files
+*.DS_Store
+Thumbs.db
+
+# IDE and Editor Directories and Files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+*.log
+
+# Dart & Flutter Temporary Directories and Build Output
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+*.lock
+
+# Coverage & Analysis Reports
+coverage/
+*.lcov
+doc/api/
+
+# Example Application & Mobile Platform Specific Ignore Rules
+**/android/.gradle/
+**/android/local.properties
+**/android/**/build/
+**/ios/.generated/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/*.xcworkspace/xcuserdata/
+**/ios/*.xcodeproj/project.xcworkspace/
+**/ios/*.xcodeproj/xcuserdata/
+**/web/build/
+**/windows/flutter/ephemeral/
+**/macos/flutter/ephemeral/
+**/linux/flutter/ephemeral/
